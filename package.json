@@ -1,0 +1,32 @@
+{
+  "name": "react-parcel-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-dom": "^17.0.1",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-virtualized": "^9.21.11",
+    "parcel-bundler": "~1.12.4",
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "watch": "parcel src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html --no-source-maps --public-url /online-casino"
+  },
+  "alias": {
+    "#root": "./src"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.0",
+    "@material-ui/icons": "^4.11.2",
+    "@types/react": "^16.8.6 || ^17.0.0",
+    "date-fns": "^2.17.0",
+    "react": ">=15",
+    "react-dom": "^16.8.0 || ^17.0.0",
+    "react-hook-form": "^6.15.1",
+    "react-redux": "^7.2.2",
+    "react-virtualized": "^9.22.3",
+    "redux": "^4.0.5"
+  }
+}
